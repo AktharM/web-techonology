@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register form</title>
+
+    </head>
+    <body>
+
+    <form>
+        <div>
+        <lable> Enter first Name</lable>
+        <input type="text" name="firstName" placeholder="enter firdt name" required minlength="3" maxlength="8"
+        >
+
+    </div>
+        
+
+        <lable> Enter Last Name</lable>
+        <input type="text"  name = "firstName" placeholder="enter last name" required>
+        <br>
+        <br>
+     <!--age-->
+        <div>
+            <label>enter age</label>
+            <input type="number" name="age" required min="0" max="100">
+        </div>
+
+        <!--Email-->
+        <lable> Enter Email Id</lable>
+        <input type="email">
+        <br>
+
+        <label> Enter Password</label>
+        <input type=" password" name="password" minlength="8">
+        <br>
+    <div>
+        <label> Select Gender</label>
+        <input type="radio" name="Gender">male
+        <input type="radio"name="Gender">female
+        <input type="radio" name="Gender">other
+    </div>
+
+    <div>
+
+        <label>Select  course</label>
+        <input type="checkbox">Java
+        <input type="checkbox">python
+        <input type="checkbox">Dotnet
+    </div>
+
+    <label> Select city</label>
+    <select> 
+        <option> banglore</option> 
+        <option> guntur</option>
+        <option>  bellari</option>
+    </select>
+    <!--database--,--mobile--addres-->
+    <div>
+    <label> Select date of birth</label>
+    <input type="date" name="date of birth" >
+    </div>
+    <div>
+        <label> mobile number</label>
+        <input type="tel" name="mobile number" placeholder="+9123456789">
+        </div>
+
+          <div>
+            <label> Enter Address</label>
+            <textarea rows="5" cols="5"></textarea>
+          </div>
+          <!--NAKURI-->
+          <div>
+            <label> Select File/Resume</label>
+            <input type="file" name="uploadfile">
+          </div>
+
+          <div>
+            <button type="Submit"> Submit</button>
+            <button type="reset">reset</button>
+          </div>
+          <!--validations-->
+
+
+    </form>
+ </body>
+</html>
