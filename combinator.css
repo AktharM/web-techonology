@@ -1,0 +1,98 @@
+/* Descendant Selector*/
+div p {
+    color: gold;
+}
+
+/*  Child selector*/
+div > p {
+    color: red;
+}
+/* Adjacent sibling selector */
+div + p {
+    color: blueviolet;
+
+}
+/* Genderal Siblng Selector*/
+div ~ p {
+   /* color: rgb(0, 255, 76) */
+   color: purple;
+}
+/* color property */
+
+/*  position property
+   top , bottom, left, right*/
+.static{
+    position: static;
+    left: 100px;
+}
+
+.relative{
+    right:-500px;
+    top: -100px;
+    position: relative;
+}
+/* absloute property */
+.absolute{
+    top: 0;
+    right: 100px;
+    position: absolute;
+}
+.topleft{
+    position: absolute;
+    top: 0;
+    left:  0px;
+    color: black;
+}
+.middleleft{
+    position: absolute;
+    bottom: 0;
+    left:  0px;
+    color: black;
+}
+.topcenter{
+    position: absolute;
+    bottom: 100;
+    left: 250px;
+    color: black;
+}
+.bottomleft{
+    position: absolute;
+    bottom:200px;
+    left:  100px;
+    color: black;
+}
+.middleright{
+    position: absolute;
+    bottom:100px;
+    left:  100px;
+    color: black;
+}
+
+.imagecircle{
+    border-radius: 25%;
+}
+.imageparent{
+    position: relative;
+
+}
+.fixed{ 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: crimson
+    
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: blue;
+}
+
+ul{
+    list-style-type: none;
+    background-color:chartreuse;
+    
+}
+li{
+    padding: 3px;
+}

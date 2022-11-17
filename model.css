@@ -1,0 +1,52 @@
+.box{
+    padding: 100px 110px 100px;
+    border: 2px solid red;
+
+    margin: 200px;
+    background-color: yellowgreen ;
+    text-align: center;
+} 
+.rect{
+    border: 5px solid red;
+    height: 25px;
+    width: 25px;
+
+}
+/*box in box*/
+.rect1{
+    border: 2px solid red;
+    width: 600px;
+    height: 200px;
+
+}
+.rect2{
+    border: 2px solid red;
+    width: 400px;
+    height: 100px;
+    margin: 70px;
+}
+
+/* side by side */
+.rect3{
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+
+
+}
+.rect4{
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+body{
+    background-image: url('F:\\Akthar Docoments\\photos\\Camera\\IMG_20191031_130413.jpg');
+    height: 500px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
